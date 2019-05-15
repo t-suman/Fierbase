@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".home_activity"
+android:background="#F38321">
+    <TextView
+            android:text="LOGGED IN"
+            android:layout_width="350dp"
+            android:layout_height="40dp" android:id="@+id/textView2" android:layout_centerInParent="true"
+            android:textStyle="bold"
+            android:textAlignment="center" android:textSize="24sp"/>
+    <Button
+            android:text="update profile"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/go_to_profile_activity"
+            android:padding="20dp"
+            android:background="@color/colorPrimary"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:onClick="updateProfile" android:layout_marginTop="15dp"/>
+    <Button
+            android:text="see profile"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/go_to_user_info_activity"
+            android:padding="20dp"
+            android:background="@color/colorPrimary"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:onClick="seeProfile"
+            android:layout_below="@+id/go_to_profile_activity"
+            android:layout_marginTop="15dp"/>
+    <Button
+            android:text="upload image"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/go_to_firebase_storage_activity"
+            android:padding="20dp"
+            android:background="@color/colorPrimary"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:onClick="uploadImage"
+            android:layout_below="@+id/go_to_user_info_activity"
+            android:layout_marginTop="15dp"/>
+    <Button
+            android:text="@string/change_email"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/change_email_home_page_btn"
+            android:padding="20dp"
+            android:background="@color/colorPrimary"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+</RelativeLayout>

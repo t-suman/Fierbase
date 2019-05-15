@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "491226211942",
+    "firebase_url": "https://fierbase-9a41c.firebaseio.com",
+    "project_id": "fierbase-9a41c",
+    "storage_bucket": "fierbase-9a41c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:491226211942:android:bf3b8169bcf14024",
+        "android_client_info": {
+          "package_name": "com.example.user.fierbase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "491226211942-vffec8e3mnv0u8pnlq06bqe664kfm9p9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.fierbase",
+            "certificate_hash": "5d5a1893feaa8def673608727b52f87328aaa58f"
+          }
+        },
+        {
+          "client_id": "491226211942-pg3q5ijc8th368pro3059porabk5810j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2JbzvI4kB0zo5fNmAsuqz9gIOmFmJcVc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "491226211942-pg3q5ijc8th368pro3059porabk5810j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
